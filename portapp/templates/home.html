@@ -1,9 +1,8 @@
 <title>Home</title>
 {% extends "base.html"%}
 
-
 {% block content %}
-<section id="land" class="p-5 home">
+<section id="land" class="p-5 home ">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md">
@@ -11,25 +10,17 @@
             </div>
         </div>
         <div class="col-md p-5">
-            <h2 class="text">Hi , <br>
-                i'm <span class="text-primary">April Wairimu</span></h2>
+            <h2 class="text">
+                i'm <span class="text-warning">April Wairimu</span></h2>
             <p class="lead" shorttext>You can reach out to me if you need any help in making a website for you or your business.
             </p>
             <button type="button" class="btn btn-outline-success" align="center"><a
-                    href="#">Contact me</a></button>
-            <button type="button" class="btn btn-outline-success" align="center"><a
+                    href="{% url 'contact' %}">Contact me</a></button>
+                    
+            <button type="button" class="btn btn-warning" align="center"><a
                     href="#">Download CV</a></button>
         </div>
 
-        <div class="row quote">
-            <div class="col-sm-12">
-                <div class="card">
-                    <div class="card-body">
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </div>
 </section>
 {% endblock%}
