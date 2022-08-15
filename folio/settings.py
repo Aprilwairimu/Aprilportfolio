@@ -136,6 +136,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.RawMediaCloudinaryStorage'
 
+
+
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': 'dolh6ghdb',
     'API_KEY': '374975931497524',
