@@ -2,11 +2,41 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    background-color: dark;
 
 }
 
 /* .home.html */
-.home {
+
+.hero-container {
+    font-weight: bold;
+
+}
+
+/* .about.html */
+.about {
     background: linear-gradient(180deg, rgba(18, 56, 31, 0.66) 0%, rgba(200, 131, 63, 0.429) 100%);
-    height: 100vh;
+}
+
+/* .resume.html */
+.resume {
+    background: linear-gradient(180deg, rgba(18, 56, 31, 0.66) 0%, rgba(200, 131, 63, 0.429) 100%);
+}
+
+/* .portfolio.html */
+.portfolio {
+    background: linear-gradient(180deg, rgba(18, 56, 31, 0.66) 0%, rgba(200, 131, 63, 0.429) 100%);
+}
+
+/* .services.html */
+
+
+/* .testimonials.html */
+.testimonials {
+    background: linear-gradient(180deg, rgba(18, 56, 31, 0.66) 0%, rgba(200, 131, 63, 0.429) 100%);
+}
+
+/* .contact.html */
+.contact {
+    background: linear-gradient(180deg, rgba(18, 56, 31, 0.66) 0%, rgba(200, 131, 63, 0.429) 100%);
 }
