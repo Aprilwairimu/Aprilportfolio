@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from django.http import HttpRequest,Http404
 from urllib import request
 from .models import *
-import requests,json
+import requests
 # Create your views here.
 
 

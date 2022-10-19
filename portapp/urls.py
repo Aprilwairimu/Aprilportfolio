@@ -12,5 +12,4 @@ urlpatterns = [
     path('contact',views.contact, name='contact'),
     path('resume',views.resume, name='resume'),
     path('testimonials',views.testimonials, name='testimonials'),
-    
 ]+ static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
